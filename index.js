@@ -16,15 +16,16 @@ const digitalClock = setInterval(() => {
     let second = date.getSeconds();
 
     let amPm = "AM";
-    let hourStatus = hour > 11 ? amPm = "PM" : amPm = "AM"
+    let hourStatus = hour > 12 ? amPm = "PM" : amPm = "AM"
 
-
+    
     hour = hour < 10 ? `0${hour}` : `${hour}`;
-
+    
     minute = minute < 10 ? `0${minute}` : `${minute}`;
-
+    
     second = second < 10 ? `0${second}` : `${second}`;
-
+    
+    hour = 13 ? hour = `01` : `${hour}`
 
 
 
