@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
     background-image: url(./8afcaacd280d3335af2d27bcdf3d6c72\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100%;
-    min-width: 377px;
+    /* width: 100%; */
+    /* min-width: 377px; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* color: aliceblue; */
-    font-size: 6rem;
+    font-size: 10vw;
 
 }
 
@@ -25,5 +25,8 @@ p {
 }
 
 sup {
-    font-size: 2rem !important;
+    font-size: 5vw !important;
 }
+
+
+
