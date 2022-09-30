@@ -16,7 +16,7 @@ const digitalClock = setInterval(() => {
     let second = date.getSeconds();
 
     let amPm = "AM";
-    let hourStatus = hour > 12 ? amPm = "PM" : amPm = "AM"
+    let hourStatus = hour > 11 ? amPm = "PM" : amPm = "AM"
 
 
     hour = hour < 10 ? `0${hour}` : `${hour}`;
