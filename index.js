@@ -10,7 +10,7 @@ const digitalClock = setInterval(() => {
     const date = new Date();
 
     let hour = date.getHours();
-
+    console.log(hour);
     let minute = date.getMinutes();
 
     let second = date.getSeconds();
@@ -25,7 +25,10 @@ const digitalClock = setInterval(() => {
     
     second = second < 10 ? `0${second}` : `${second}`;
     
-    hour = hour > 13 ? Number(hour) + 1 : hour
+
+    hour = hour > 12 ? Number(hour) + 1 : hour;
+    console.log(hour,"2");
+
 
 
 
