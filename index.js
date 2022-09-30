@@ -25,7 +25,7 @@ const digitalClock = setInterval(() => {
     
     second = second < 10 ? `0${second}` : `${second}`;
     
-    hour = hour > 13 ? hour + 1 : hour
+    hour = hour > 13 ? Number(hour) + 1 : hour
 
 
 
