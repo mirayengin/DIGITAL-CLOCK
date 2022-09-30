@@ -28,7 +28,7 @@ const digitalClock = setInterval(() => {
 
 
 
-    clock.innerHTML = `${hour % 13}:${minute}:${second} <sup>${hourStatus}</sup> `
+    clock.innerHTML = `${hour % 12}:${minute}:${second} <sup>${hourStatus}</sup> `
 
 
 }, 1000)
