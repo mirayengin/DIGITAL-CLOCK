@@ -9,7 +9,7 @@ const clock = document.querySelector("p")
 const digitalClock = setInterval(() => {
     const date = new Date();
 
-    let hour = date.getHours();
+    let hour = date.getHours()  % 13 ;
 
     let minute = date.getMinutes();
 
