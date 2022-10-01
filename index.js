@@ -25,10 +25,10 @@ const digitalClock = setInterval(() => {
     
     second = second < 10 ? `0${second}` : `${second}`;
     
-
+    
     hour = hour > 12 ? Number(hour) + 1 : hour;
     console.log(hour,"2");
-
+    
 
 
 
