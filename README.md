@@ -6,7 +6,7 @@ Project aims to create a digital clock.
 ### Check The Live Website ➡️ [Live Website](https://mirayengin-flag-projes.vercel.app//)
 
 ### Animation of the Website
-![image](./DigitalClock.giff)
+![image](./DigitalClock.gif)
 ## Project Skeleton 
 
 ```
