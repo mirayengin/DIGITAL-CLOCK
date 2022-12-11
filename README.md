@@ -3,7 +3,7 @@
 ## Description
 Project aims to create a digital clock.
 
-### Check The Live Website ➡️ [Live Website](https://mirayengin-flag-projes.vercel.app//)
+### Check The Live Website ➡️ [Live Website](https://digital-clock-mirayengin.vercel.app///)
 
 ### Animation of the Website
 ![image](./DigitalClock.gif)
